@@ -1,0 +1,21 @@
+.timeline-container {
+  max-width: 50vw;
+  max-height: 75vh;
+  overflow: hidden scroll;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline-container::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.timeline-container::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 5px;
+}
+
+.timeline-container::-webkit-scrollbar-thumb:hover {
+  background: greenyellow;
+}
